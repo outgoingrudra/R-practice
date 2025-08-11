@@ -1,0 +1,9 @@
+
+num <- 9
+sq <- num * num
+sum_digits <- sum(as.numeric(strsplit(as.character(sq), "")[[1]]))
+if (sum_digits == num) {
+  print("Neon Number")
+} else {
+  print("Not Neon Number")
+}
